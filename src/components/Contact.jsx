@@ -7,7 +7,7 @@ import behance from "../assets/behance-noborders.png";
 import "./Contact.css";
 function Contact() {
   return (
-    <div className="contact">
+    <div className="contact" id="Contact">
       <h1 className="contact-header">Get In Touch</h1>
       <h3 className="contact-desc">
         Have a project in mind or just want to chat? I'd love to hear from you.

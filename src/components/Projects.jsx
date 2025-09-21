@@ -5,7 +5,7 @@ import sawaed from "../assets/sawaed.png";
 import momsweather from "../assets/momsweather.png";
 function Projects() {
   return (
-    <div className="projects">
+    <div className="projects" id="Projects" >
       <h1>Featured Projects:</h1>
       <h3 className="projects-desc">
         Here are some of my recent projects that showcase my skills and passion
@@ -21,7 +21,7 @@ function Projects() {
                 It's a financial app used to control your expenses and
                 transformations
               </p>
-              <a href="#repo" className="repo-btn">
+              <a href="https://github.com/shahdzeiad96/Moms-Weather" className="repo-btn">
                 Code <img src={github} alt="code" className="github-icon" />
               </a>
               <p className="skill-used">Html/css</p>
@@ -44,7 +44,7 @@ function Projects() {
                 them choose suitable clothing for their children based on the
                 weather.
               </p>
-              <a href="#repo" className="repo-btn">
+              <a href="https://github.com/shahdzeiad96/Moms-Weather" className="repo-btn">
                 Code <img src={github} alt="code" className="github-icon" />
               </a>
               <p className="skill-used">Html/css</p>
@@ -61,7 +61,7 @@ function Projects() {
                 A Palestinian platform that connects handymen with customers,
                 enabling them to showcase their services and get hired easily.
               </p>
-              <a href="#repo" className="repo-btn">
+              <a href="https://github.com/shahdzeiad96/Sawa-ed" className="repo-btn">
                 Code <img src={github} alt="" className="github-icon" />
               </a>
               <p className="skill-used">Html/css</p>

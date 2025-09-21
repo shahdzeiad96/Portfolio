@@ -5,7 +5,7 @@ import love from '../assets/heart.png'
 import './About.css'
 function About() {
   return (
-    <div className='about-section'>
+    <div className='about-section' id='About'>
       <h1 className='about-header'>About ME</h1>
       <p className='aboutme'>
         I'm a passionate Fullstack developer with a love for creating digital
