@@ -1,0 +1,21 @@
+.logo span{
+    color: gray;
+}
+.heart-icon img{
+    width: 20px;
+    height: 20px;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: 40px auto;
+}
+.madewith,.copy-right,.navlist{
+color: gray;
+line-height: 1.8;
+}
+.navlist{
+    font-weight: lighter;
+    gap: 20px;
+}

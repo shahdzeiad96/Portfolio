@@ -1,0 +1,35 @@
+
+.navbar {
+  display: flex;
+  position:sticky;
+  width: 100%;
+  top: 0;
+  z-index: 1000;
+  justify-content: space-around;
+  align-items: center;
+  background-color: white;
+  padding: 10px;
+  border-bottom: 1px solid grey;
+  font-family: sans-serif;
+}
+.navbar h1{
+    font-size:30px;
+}
+.navbar span {
+  color: gray;
+}
+.navlist{
+    display: flex;
+    justify-content: space-between;
+    width: 30%;
+    list-style: none;
+}
+.navlist a{
+    color: gray;
+  text-decoration: none;
+
+}
+.nightmode-logo{
+    width: 20px;
+    height: 20px;
+}

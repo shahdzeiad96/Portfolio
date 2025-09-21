@@ -1,0 +1,84 @@
+.projects{
+    text-align: center;
+    margin-top: 40px;
+    padding: 30px;
+    background-color: oklch(0.98 0 0);
+
+}
+.projects-desc{
+    width: 70ch;    
+    margin: 20px auto;
+    color: rgb(114, 113, 113);
+    font-weight: lighter;
+}
+.projects-grid{
+    display: grid;
+    width: 80%;
+    margin: 0 auto;
+    grid-template-columns: auto auto;
+}
+.project-card{
+    width: 80%;
+    margin:10px auto;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    background: none;
+    padding: 0;
+    position: relative;
+}
+.project-thumbnail{
+    width: 100%;
+    height: 250px;
+    display: block;
+    object-fit:fill;
+    transition: filter 0.3s ease-in-out;
+}
+.card-body{
+    padding: 10px;
+}
+.project-title{
+    text-align: left;
+    font-weight: lighter;
+}
+.project-info{
+    color: gray;
+    text-align: left;
+    /* margin: 10px; */
+    line-height: 1.8;
+    /* width: 40ch; */
+}
+.skill-used{
+    display: inline-block;
+    border: 1px solid lightslategray;
+    border-radius: 5px;
+    width: max-content;
+    padding: 5px;
+    margin: 7px ;
+    font-size: x-small;
+}
+.repo-btn{
+    display: block;
+    background-color: oklch(.95 .0058 264.53);
+    padding: 10px;
+    border-radius: 8px;
+    width: max-content;
+    text-decoration: none;
+    color: black;
+    font-weight: lighter;
+    font-size: smaller;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+}
+.github-icon{
+    height: 20px;
+}
+.project-card:hover .repo-btn{
+    opacity: 1;
+}
+.project-card:hover .project-thumbnail{
+    filter: brightness(70%);
+}

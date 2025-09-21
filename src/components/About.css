@@ -1,0 +1,75 @@
+*{
+    font-family: sans-serif;
+}
+.about-section{
+    margin-top: 40px;
+    text-align: center;
+    background-color: oklch(0.98 0 0);
+    padding: 30px;
+}
+.about-header{
+    margin: 20px;
+    font-size: 40px;
+}
+.aboutme{
+    width: 40%;
+    margin:20px auto;
+    color: gray;
+    font-size: larger;
+    
+}
+.myjourney-section{
+    display: flex;
+    justify-content: space-between;
+}
+.my-journey{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    text-align: left;
+    font-size: larger;
+    width: 40%;
+    margin: 10px;
+    padding: 20px;
+    p{
+        color: gray;
+    }
+}
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  padding: 20px;
+}
+
+.card {
+  background-color: #fff;
+  border: 2px solid #c1bdbd;
+  border-radius: 13px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  padding: 20px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.15);
+}
+
+.icon{
+    height: 30px;
+    width: 30px;
+    background-color: #c1bdbd;
+    padding: 10px;
+    border-radius: 9px;
+    margin: 20px;
+}
+.card-desc{
+    width:80%;
+    color: gray;
+    margin: center;
+}

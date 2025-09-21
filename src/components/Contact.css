@@ -1,0 +1,135 @@
+.contact-header{
+    margin-top: 40px;
+    padding: 30px;
+}
+.contact{
+    text-align: center;
+    width: 80%;
+    gap: 20px;
+    margin:20px auto;
+}
+.contact-desc{
+    width: 70ch;    
+    margin: 20px auto;
+    color: rgb(114, 113, 113);
+    font-weight: lighter;
+}
+.contact-body{
+    display: flex;
+    gap: 50px;
+    /* width: 70%; */
+    margin: auto;
+    height:inherit;
+}
+.send-msg{
+    width: 50%;
+    align-items: start;
+    padding:40px ;
+    border: 0.5px solid #e0e0e0;
+    
+}
+
+.send-msg textarea{
+    height: 50px;
+
+}
+.send-msg:hover{
+        transform:unset
+}
+.send-msg h2 {
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+.send-msg label {
+  display: block;
+  font-size: 14px;
+  font-weight: 600;
+  margin: 15px 0 6px;
+  text-align: left;
+}
+.send-msg input,
+.send-msg textarea {
+  width:90%;
+  padding: 14px 16px;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  font-size: 14px;
+  outline: none;
+  transition: all 0.2s ease-in-out;
+  text-align: left;
+  display: block;
+    border: none;
+
+}
+.send-msg input:hover,
+.send-msg textarea:hover,
+.send-msg input:focus,
+.send-msg textarea:focus {
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.15);
+  /* background-color: #fff; */
+}
+.send-msg-btn {
+  width: 100%;
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 14px 0;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+  text-align: center;
+  transition: background 0.3s ease;
+  display: block;
+  margin-top:10px
+}
+
+.send-msg-btn:hover {
+  background-color: #1a1a2e;
+}
+.contact-info{
+    padding: 20px;
+}
+.contact-body2{
+    display: flex;
+    text-align: left;
+    align-items: center;
+    margin: 20px;
+}
+.social-media{
+    display: flex;
+    text-align: left;
+}
+.followme{
+    text-align: left;
+}
+.availability{
+    text-align: left;
+    background-color: #e0e0e0;
+    padding: 20px;
+    border-radius: 12px;
+    line-height: 1.6;
+}
+.status-dot {
+  width: 12px;      
+  height: 12px;
+  background-color: #28a745; 
+  border-radius: 50%; 
+  margin-right: 10px;
+  display: inline-block;
+  animation: blink 1.5s infinite; 
+}
+.available{
+    padding-top: 10px;
+    color: #28a745;
+}
+
+@keyframes blink {
+  0%, 50%, 100% {
+    opacity: 1;
+  }
+  25%, 75% {
+    opacity: 0.3;
+  }
+}
